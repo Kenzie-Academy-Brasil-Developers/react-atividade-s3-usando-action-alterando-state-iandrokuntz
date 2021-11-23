@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux"
 import { changeName } from "../../store/modules/actions";
 import "./style.css"
 
-const InputUser = () => {
+const InputName = () => {
 
     const [newName, setNewName] = useState("")
     const {name} = useSelector((state) => state.user)
@@ -23,4 +23,4 @@ const InputUser = () => {
     )
 }
 
-export default InputUser
+export default InputName

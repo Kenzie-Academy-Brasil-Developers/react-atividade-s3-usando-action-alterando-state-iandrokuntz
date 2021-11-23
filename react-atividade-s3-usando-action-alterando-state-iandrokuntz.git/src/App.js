@@ -1,5 +1,5 @@
 import './App.css';
-import InputUser from './components/InputUser';
+import InputName from './components/InputName';
 
 function App() {
 
@@ -7,10 +7,10 @@ function App() {
 
     <div className="App">
 
-      <InputUser/>
+      <InputName/>
 
     </div>
-    
+
   )
 }
 
